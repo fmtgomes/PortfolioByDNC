@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cb07868e31.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">Portfolio</div>
+      <div id="menu">
+        <ul>
+          <!-- <li><a href="">Serviços</a></li> -->
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#portfolioTitle">Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div id="headerCta">
+        <h1>
+          Olá, meu nome<br />
+          é Fábio
+        </h1>
+        <p class="gray">
+          Sou programador e gostaria de apresentar meu<br />
+          trabalho para você através deste portfólio.
+        </p>
+        <a
+          href="https://wa.me/send/?phone=5518991040692&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20or%C3%A7amento!%20&type=phone_number&app_absent=0"
+          id="buttonCta"
+          target="_blank"
+          ><i class="fa-brands fa-whatsapp"></i> Whatsapp</a
+        >
+      </div>
+      <div id="headerImg">
+        <img src="./img/Perfil.jpeg" alt="Imagem de Perfil" />
+      </div>
+    </div>
+    <!-- Container de CLIENTES -->
+    <!-- <div class="container" id="clients">
+      <div id="headerClientText">
+        Alguns dos<br />
+        meus clientes
+      </div>
+      <div class="headerLogo">
+        <img src="./img/apples.svg" alt="Logo da Apple" />
+      </div>
+      <div class="headerLogo">
+        <img src="./img/slack.svg" alt="Logo da Slack" />
+      </div>
+      <div class="headerLogo">
+        <img src="./img/spotify.svg" alt="Logo da Spotify" />
+      </div>
+    </div> -->
+    <!-- Container de Serviços -->
+    <div class="container textCenter">
+      <div id="services">
+        <h2 class="red">Conheça</h2>
+        <h1 class="black">Meus Serviços</h1>
+      </div>
+    </div>
+    <div class="container" id="services">
+      <div class="textCenter">
+        <img src="./img/icon1.svg" alt="Icone de Consultoria" />
+        <h3>Consultoria</h3>
+        <p class="gray">
+          Te ajudo a organizar sua empresa<br />
+          e melhorar seus resultados.
+        </p>
+      </div>
+      <div class="textCenter">
+        <img src="./img/icon2.svg" alt="Icone de Marketing de Email" />
+        <h3>E-mail Marketing</h3>
+        <p class="gray">
+          Gerenciar campanhas é difícil.<br />
+          Conte comigo para te ajudar.
+        </p>
+      </div>
+      <div class="textCenter">
+        <img src="./img/icon3.svg" alt="Icone de Criação de Websites" />
+        <h3>Criação de Websites</h3>
+        <p class="gray">
+          Desenvolvo seu site inteiro<br />
+          do zero e te entrego prontinho.
+        </p>
+      </div>
+    </div>
+    <div class="container" id="contact">
+      <div id="contactImg">
+        <img src="./img/imagem-contato.jpg" alt="Imagem da seção Contato" />
+      </div>
+      <div id="contactForm">
+        <h2 class="red">Economize seu tempo</h2>
+        <h1 class="black">Ganhe mais dinheiro</h1>
+        <p class="gray">
+          Digite aqui seu endereço de e-mail. Eu entrarei em<br />
+          contato para fornecer um orçamento gratuito.
+        </p>
+        <form action="https://formspree.io/f/mdovgogq" method="POST">
+          <p>
+            <input
+              placeholder="Seu e-mail"
+              type="text"
+              name="contactEmail"
+              required
+            />
+          </p>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+    <div class="container" id="portfolioTitle">
+      <div>
+        <h2 class="red">Conheça o meu</h2>
+        <h1 class="black">Portfolio</h1>
+      </div>
+    </div>
+    <div class="container">
+      <div class="portfolioImg">
+        <a href="https://spacex-obc-fgomes.netlify.app" target="_blank"
+          ><img src="./img/project1.png" alt="Imagem do Projeto 1" />
+        </a>
+        <a href="https://barbeariafgomes.netlify.app" target="_blank"
+          ><img src="./img/project2.png" alt="Imagem do Projeto 1" />
+        </a>
+        <a href="https://fmtgomes-networking.netlify.app" target="_blank"
+          ><img src="./img/project3.png" alt="Imagem do Projeto 1" />
+        </a>
+      </div>
+    </div>
+    <div class="container">
+      <footer>
+        <p>Minhas redes sociais!</p>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/fabio-gomes-84611320b/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.instagram.com/ftartalioni/" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://github.com/fmtgomes" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="mailto:fmtgomes@hotmail.com" target="_blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+        <!--redes-sociais-->
+        <div class="End">
+          <p>Copyright by Fábio Gomes</p>
+          <a href="#" class="top">
+            <button class="button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-arrow-big-up-line"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M9 12h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v6h-6v-6z"
+                ></path>
+                <path d="M9 21h6"></path>
+              </svg>
+            </button>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
